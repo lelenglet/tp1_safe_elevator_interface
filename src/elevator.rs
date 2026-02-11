@@ -58,9 +58,9 @@ impl Elevator {
             return Err(ElevatorError::EmptyQueue);
         }
         if self.state == State::MovingUp {
-            self.floor = self.floor + 1;
+            self.floor += 1;
         } else if self.state == State::MovingDown {
-            self.floor = self.floor - 1;
+            self.floor -= 1;
         }
         if &self.floor == self.queue.front().unwrap() {
             self.state = State::DoorsOpen;
