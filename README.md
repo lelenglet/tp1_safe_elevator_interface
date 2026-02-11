@@ -1,4 +1,4 @@
-# TP 1 - Simulateur d'Ascenseur
+# TP 1 - Simulateur d'Ascenseur - Lenglet Léa
 
 ### Sujet
 
